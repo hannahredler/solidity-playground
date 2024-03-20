@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleConstructorSolidity.sol": "ExampleConstructor"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleConstructorSolidity.sol": {
+			"keccak256": "0x476afc456cbd2815f28ad165153c409fcdd68491088d7ed5d9df59308f5eb17d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d6fc8f8f09335973ad50fd3c47cc89ea3f605d8b2ffdecc38ec62013a79ceacd",
+				"dweb:/ipfs/QmaiKSCe2svP6qkK2Vs6arEkb5Ln952niHjBRyNovUx382"
+			]
+		}
+	},
+	"version": 1
+}
