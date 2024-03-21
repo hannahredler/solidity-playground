@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleMessageSender.sol": "ExampleMessageSender"
+			"contracts/ExampleMapping.sol": "ExampleMessageSender"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -53,7 +53,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleMessageSender.sol": {
+		"contracts/ExampleMapping.sol": {
 			"keccak256": "0x9fb1c62b4ad2d24a37376bd3126f214e5f8e43f20ba7a618df00d257abcfa4e1",
 			"license": "MIT",
 			"urls": [

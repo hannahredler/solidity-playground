@@ -4,52 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_someAddress",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "myAddress",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_myAddress",
-						"type": "address"
-					}
-				],
-				"name": "setMyAddress",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setMyAddressToMessageSender",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -63,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleConstructorSolidity.sol": "ExampleConstructorSolidity"
+			"contracts/ExampleContractCall.sol": "ExampleConstructorSolidity"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -77,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleConstructorSolidity.sol": {
-			"keccak256": "0x31489fc82ff4739476640662fb849d54b96e8cdeb2bcac6dbbf6a9fe7a843552",
+		"contracts/ExampleContractCall.sol": {
+			"keccak256": "0xe6d6989dca1500b5bfb611fba99e7c56357baed5fa587142645c63ac1bbf0f13",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://67f86244bb4e4eebd8482e8076c16dcd2ea4fe4c77bc0d4bf91f057ab8847fae",
-				"dweb:/ipfs/QmX6L8AwXc9FsVJXMLkA3DidbjD7E7WC7eb1BaY9c1djT5"
+				"bzz-raw://c49ab592cf0e0eb300edaa2f8d012841061990845835fdffa0fb6c1be0fda528",
+				"dweb:/ipfs/QmT6VLerEH3EDjQfDMjYKWLkYvEegm5Qm6JfRKaDzJtW1g"
 			]
 		}
 	},

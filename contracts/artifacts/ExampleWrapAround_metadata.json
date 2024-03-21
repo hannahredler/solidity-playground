@@ -4,61 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "decrementUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint8",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myUint",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -72,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleWrapAround.sol": "ExampleWrapAround"
+			"contracts/MappingStructExample.sol": "ExampleWrapAround"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +32,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleWrapAround.sol": {
-			"keccak256": "0x6b5bbbdc4742800c3aff4adfabd76cd7ba65a11590421ed567399a5598d15ec2",
-			"license": "MIT",
+		"contracts/MappingStructExample.sol": {
+			"keccak256": "0xd110d8d77667bf9c0d85b2369ae20c9f6a2e65f008b239b9f055fcfd70b51156",
 			"urls": [
-				"bzz-raw://9755d7836d7eaa362624417c42a288dd66eb1ac0f3adedcbfba06f0c6b413ca1",
-				"dweb:/ipfs/QmWR4vBpX6Q14gkyUSFXqRd5Veam4X4JSyhovSQMV2GR3w"
+				"bzz-raw://2647ff3a9abe1dfe8a7448e162ac46f121cc01d8b244f8ed423b24c1807c6177",
+				"dweb:/ipfs/QmbrtfSyuQAue2ndVyk7CZz1pB534mpbrLHfHvjScAHZw8"
 			]
 		}
 	},

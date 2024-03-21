@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/SampleFallback.sol": "SampleContract"
+			"contracts/SampleContract.sol": "SampleContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/SampleFallback.sol": {
-			"keccak256": "0xc453db933a8fc3cc38471a2cd091f9fdf92369a28b1664bd8449df6af1bb1ca9",
+		"contracts/SampleContract.sol": {
+			"keccak256": "0x1c1055815e8e0c64913cba1371ea9c5e477fd72db56b5d94cf69524d2c9575b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e573618238d744f2f1419a8dfb919e01043d6e84fcb438f85a376be365a81387",
-				"dweb:/ipfs/QmP1fyQRh6dLoz8bRKZyPJitwdWPvRG9bBgiNCeXm7S5k5"
+				"bzz-raw://ae2a1ff13a813c0756826757fbd3897865ae553f0bec7d6a05e1c82f80cdc6f6",
+				"dweb:/ipfs/QmZEyCFsi9TqvE24VXj6DzwsjcWZbgjqxDhukjRUUGKxNy"
 			]
 		}
 	},

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleSendTransfer.sol": "ExampleSendTransfer"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleSendTransfer.sol": {
+			"keccak256": "0x312a2ac08b66a4ae01fc4aa67bf8f22ffdde662cabf40ecc70dad20581f9093a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7e9a53e770f14661e7ce75336798c92eae8a9703b0bdb0c9075fb830887b9432",
+				"dweb:/ipfs/QmX3mUoEypv2XJ83FTL22NxTLnYU2pvfT2TFj3sVkNHb4P"
+			]
+		}
+	},
+	"version": 1
+}

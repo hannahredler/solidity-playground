@@ -4,61 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "balance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "deposit",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getContractBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "withdrawAll",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "to",
-						"type": "address"
-					}
-				],
-				"name": "withdrawToAddress",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -72,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/WalletSmartContract.sol": "WalletSmartContract"
+			"contracts/WillThrow.sol": "WalletSmartContract"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -86,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/WalletSmartContract.sol": {
-			"keccak256": "0x9f96d35fe9a141bcb1a84c612756fa8f860a94435641512e68066ea337460b72",
+		"contracts/WillThrow.sol": {
+			"keccak256": "0xcc8670ede699e3a6c917b34ea60b1a59f4cd2981cad431c719823000bd3ff931",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f071f9fa1d2bf548f83f99fdd95af367704acd5d122ae9bae6a2172deac14fd0",
-				"dweb:/ipfs/QmbgaC1ATcD7DhYigf7HfuHgLgtHVKQSa26pb7JBbaixjr"
+				"bzz-raw://28dd1184c8a41149b46711f2401423ed08ec988765428e89ea537596522e3b3a",
+				"dweb:/ipfs/QmbGRfH7vuoteB9hC3gyqij5Ydu5vbzb1DrBfawEnpohNH"
 			]
 		}
 	},

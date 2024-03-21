@@ -4,7 +4,47 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_myAddress",
+						"type": "address"
+					}
+				],
+				"name": "setSomeAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/BlockchainMessenger.sol": "ExampleAddress"
+			"contracts/ExampleAddress.sol": "ExampleAddress"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -32,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/BlockchainMessenger.sol": {
-			"keccak256": "0xdfa95f0768721445939f0132d453c3d973ea5cb276b2914cfab1b13cae39d8b0",
+		"contracts/ExampleAddress.sol": {
+			"keccak256": "0x82b47d822d792eb66f0ddd74daf28d26d9152d65483914822b76880dd2e7675a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6311be655fecc220bef90a7b01c394e536e3a8c7f631c6e28f961f08701e97ed",
-				"dweb:/ipfs/QmXE28sih1RB3CNJiTjKWie1s2gFGbcaXyyMjTASfroi2Z"
+				"bzz-raw://7bc40ec530d894edbb3c25bacbbaf5bab412e38887a8c09dc34999a5c782bc3b",
+				"dweb:/ipfs/Qmd3RRheuxhUX5WtEWmqkxy5ibBa9Y3vD8xYjTWxrjuf8X"
 			]
 		}
 	},
